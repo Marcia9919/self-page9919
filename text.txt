@@ -1,8 +1,10 @@
-your-repo/
+Marcia-website/
 ├── index.html
 ├── styles.css
 ├── images/
-│   ├── product1.jpg
-│   ├── product2.jpg
+│   ├── hero-banner.jpg
+│   ├── bestseller1.jpg
+│   ├── bestseller2.jpg
+│   ├── bestseller3.jpg
 │   └── ...
 └── README.md
