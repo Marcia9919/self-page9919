@@ -1,0 +1,8 @@
+your-repo/
+├── index.html
+├── styles.css
+├── images/
+│   ├── product1.jpg
+│   ├── product2.jpg
+│   └── ...
+└── README.md
