@@ -3,35 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的产品展示</title>
+    <title>Marcia | Beautiful Ballet Skirts</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>欢迎来到我们的产品展示</h1>
+        <nav>
+            <div class="logo">Marcia</div>
+            <ul class="nav-links">
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">NEW ARRIVALS</a></li>
+                <li><a href="#">BESTSELLERS</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <main>
-        <section class="gallery">
-            <!-- 产品照片将在这里展示 -->
-            <div class="product">
-                <img src="images/product1.jpg" alt="产品1">
-                <h3>产品名称1</h3>
-                <p>产品描述1</p>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Beautiful Ballet</h1>
+            <a href="#" class="shop-now-btn">SHOP NOW</a>
+        </div>
+        <div class="press-logos">
+            <span>VOGUE</span>
+            <span>Forbes</span>
+            <span>WHO WHAT WEAR</span>
+            <span>marie claire</span>
+            <span>Strategist</span>
+        </div>
+    </section>
+
+    <section class="bestsellers">
+        <h2>OUR BESTSELLERS</h2>
+        <p class="section-description">We are committed to making beautiful, modern accessories without compromise. Each bag takes a copy of thoughtful design, without embellishment, and timeless designers.</p>
+        
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/bestseller1.jpg" alt="FREJA TOTE BLACK">
+                <h3>FREJA TOTE BLACK</h3>
+                <p>$295</p>
             </div>
-            
-            <div class="product">
-                <img src="images/product2.jpg" alt="产品2">
-                <h3>产品名称2</h3>
-                <p>产品描述2</p>
+            <div class="product-card">
+                <img src="images/bestseller2.jpg" alt="GINISTER CROSSBODY">
+                <h3>GINISTER CROSSBODY</h3>
+                <p>$245</p>
             </div>
-            
-            <!-- 添加更多产品 -->
-        </section>
-    </main>
-    
+            <div class="product-card">
+                <img src="images/bestseller3.jpg" alt="MARKETTE TOTE DAY">
+                <h3>MARKETTE TOTE DAY</h3>
+                <p>$275</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="new-arrivals">
+        <div class="section-header">
+            <h2>NEW ARRIVALS</h2>
+            <a href="#" class="view-all">VIEW ALL →</a>
+        </div>
+        
+        <div class="arrival-list">
+            <a href="#">The Bleecker Tote →</a>
+            <a href="#">The Mercer Bag →</a>
+            <a href="#">The Mini Chryslic →</a>
+            <a href="#">The Weekender →</a>
+            <a href="#">Cases →</a>
+        </div>
+        
+        <div class="story">
+            <p>It all started with a year long journey to engineer the perfect everyday work tote, handcrafted using exceptional vegan materials and made with love at a family owned factory.</p>
+            <a href="#" class="about-link">ABOUT FREJA</a>
+        </div>
+    </section>
+
+    <section class="featured-product">
+        <div class="product-image">
+            <img src="images/featured-product.jpg" alt="The Mercer Bag">
+        </div>
+        <div class="product-info">
+            <h2>MEET THE MERCER BAG</h2>
+            <p>Our signature design that combines functionality with minimalist elegance.</p>
+            <a href="#" class="shop-now-btn">SHOP NOW</a>
+        </div>
+    </section>
+
     <footer>
-        <p> 2023 我的公司. 保留所有权利.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SHOP</h3>
+                <ul>
+                    <li><a href="#">All Bags</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Bestsellers</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>ABOUT</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>HELP</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Care Guide</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>STAY CONNECTED</h3>
+                <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+                <form>
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> 2025 Marcia Shenzhen Limited All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
